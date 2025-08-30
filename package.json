@@ -1,0 +1,16 @@
+{
+    "name": "my-ide",
+    "version": "1.0.0",
+    "description": "An AI Code Editor built with Monaco and Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^25.0.0"
+    }
+  }
+  
