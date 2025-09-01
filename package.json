@@ -4,13 +4,19 @@
     "description": "An AI Code Editor built with Monaco and Electron",
     "main": "main.js",
     "scripts": {
-      "start": "electron ."
+        "start": "electron .",
+        "rebuild": "electron-rebuild"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-      "electron": "^25.0.0"
+    "electron": "^31.0.1",
+    "electron-rebuild": "^3.2.9"
+},
+    "dependencies": {
+        "node-pty-prebuilt-multiarch": "^0.10.1-pre.5",
+        "xterm": "^5.3.0",
+        "xterm-addon-fit": "^0.8.0"
     }
-  }
-  
+}

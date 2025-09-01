@@ -1,0 +1,25 @@
+/* --- AESTHETIC BLACK THEME --- */
+body { background-color: #121212; color: #e0e0e0; }
+.bg-primary { background-color: #121212; }
+.bg-secondary { background-color: #1e1e1e; }
+.bg-tertiary { background-color: #252526; }
+.border-color { border-color: #333333; }
+.text-color-primary { color: #cccccc; }
+.text-color-secondary { color: #888888; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #1e1e1e; }
+::-webkit-scrollbar-thumb { background: #4a4a4a; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #6a6a6a; }
+.tab { border-bottom: 2px solid transparent; }
+.tab.active { background-color: #1e1e1e; color: #ffffff; border-bottom: 2px solid #0e639c; }
+.tab:not(.active):hover { background-color: #2a2d2e; }
+#terminal-container { width: 100%; height: 100%; }
+.xterm .xterm-viewport { width: initial !important; }
+/* --- FILE EXPLORER STYLES --- */
+.file-entry:hover, .folder-header:hover { background-color: #2a2d2e; }
+.folder-header { cursor: pointer; }
+.file-entry { cursor: pointer; }
+.folder-caret { transition: transform 0.1s ease-in-out; }
+.folder-caret.open { transform: rotate(90deg); }
+.close-tab-btn { border-radius: 5px; padding: 0 4px; line-height: 1; }
+.close-tab-btn:hover { background-color: #555; }
